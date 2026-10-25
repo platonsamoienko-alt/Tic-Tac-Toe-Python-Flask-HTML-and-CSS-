@@ -18,7 +18,20 @@ main {
     color: #590000;
 }
 
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#game-board form {
+    margin: 0;
+}
+
 #game-board button {
-    width: 64px;
-    height: 64px;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    cursor: pointer;
 }

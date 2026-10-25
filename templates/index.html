@@ -18,21 +18,16 @@
     <main>
         <h2 id="turn-header" align="center">{{ turn }} Turn!</h2>
         <div id="game-board" align="center">
-            <button></button>
-            <button></button>
-            <button></button>
-            
-            <br>
-
-            <button></button>
-            <button></button>
-            <button></button>
-
-            <br>
-
-            <button></button>
-            <button></button>
-            <button></button>
+            {% for cell in board %}
+                <form method="POST">
+                    <button
+                        type="submit"
+                        name="cell"
+                        value="{{ loop.index0 }}">
+                        {{ cell }}
+                    </button>
+                </form>
+            {% endfor %}
         </div>
     </main>
 </body>
