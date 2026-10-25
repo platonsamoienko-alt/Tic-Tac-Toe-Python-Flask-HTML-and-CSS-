@@ -18,6 +18,10 @@ main {
     color: #590000;
 }
 
+#game-state {
+    color: #590000;
+}
+
 #game-board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
@@ -34,4 +38,10 @@ main {
     height: 100px;
     font-size: 40px;
     cursor: pointer;
+}
+
+#restart-btn {
+    font-size: 32px;
+    background: linear-gradient(to right, #fe842d, #fcc334, #fff86a);
+    border-radius: 5px;
 }
