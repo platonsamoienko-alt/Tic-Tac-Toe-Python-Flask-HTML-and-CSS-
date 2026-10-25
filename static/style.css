@@ -1,0 +1,15 @@
+header {
+    background: radial-gradient(circle, #2771f0, #35cefd, #8dfffd);
+}
+
+#logo-img {
+    display: block;
+    margin: 0 auto;
+    width: 128px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+#title-header {
+    color: #590000;
+}
