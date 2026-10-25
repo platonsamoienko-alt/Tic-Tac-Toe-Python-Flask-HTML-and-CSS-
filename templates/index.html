@@ -17,6 +17,7 @@
     </header>
     <main>
         <h2 id="turn-header" align="center">{{ turn }} Turn!</h2>
+        <h2 id="game-state" align="center">{{ game_state }}</h2>
         <div id="game-board" align="center">
             {% for cell in board %}
                 <form method="POST">
