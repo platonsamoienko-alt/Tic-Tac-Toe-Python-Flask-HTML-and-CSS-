@@ -2,6 +2,10 @@ header {
     background: radial-gradient(circle, #2771f0, #35cefd, #8dfffd);
 }
 
+main {
+    background: radial-gradient(circle, #30ca05, #7df44e, #a4ff6b);
+}
+
 #logo-img {
     display: block;
     margin: 0 auto;
@@ -12,4 +16,9 @@ header {
 
 #title-header {
     color: #590000;
+}
+
+#game-board button {
+    width: 64px;
+    height: 64px;
 }

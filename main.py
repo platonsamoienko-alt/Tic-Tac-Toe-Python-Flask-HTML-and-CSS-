@@ -5,7 +5,8 @@ app.secret_key = "Secret Key"
 
 @app.route("/")
 def main():
-    return render_template("index.html")
+    turn = "X" #temporary var
+    return render_template("index.html", turn=turn)
 
 
 if __name__ == "__main__":
